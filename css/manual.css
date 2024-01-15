@@ -1,11 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     background-color: #A9A9A9;
+    overflow-x: hidden;
 }
+
+body {
+    background-color: #A9A9A9!important;
+    margin: 0;
+}
+
+
+/* ------------------------------------------------------ NAV ------------------------------------------------------------ */
 
 header {
     background-color: black;
-    position: absolute;
-    width: 100%;
     z-index: 2;
 }
 
@@ -14,16 +25,17 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    
 }
 
 #titol-pagina a {
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     text-decoration: none;
 }
 
 #botons a {
-    font-size: 17px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
 }
@@ -44,20 +56,23 @@ header {
 }
 
 #titol {
+    margin-top: 255px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 24px;
+    font-size: 14px;
 }
 
 #paraula1 {
+    font-size: 75px;
     display: inline-flex;
     z-index: 2;
     color:rgb(255, 255, 255);
 }
 
 #paraula2 {
+    font-size: 75px;
     display: inline-flex;
     z-index: 2;
     color:rgb(255, 255, 255);
@@ -73,10 +88,130 @@ header {
 
 #requadre {
     top: 0;
-    left: 704px;
+    left: 475px;
     position: absolute;
-    height: 300px;
-    width: 120px;
+    height: 913px;
+    width: 220px;
     background-color: #1B96B0;
-    z-index: 1; /* Asegúrate de que el z-index sea inferior al del header */
+    z-index: 1;
+}
+
+#boto-benvinguda {
+    margin-top: 215px;
+    margin-bottom: 85px;
+    font-size: 28px;
+    padding: 20px 40px;
+    background-color: #1B96B0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ------------------------------------------------------ QUI SOC? ------------------------------------------------------------ */
+
+.qui-soc{
+    margin-top: 140px !important;
+    margin: 10px;
+    display: flex;
+    height: 700px;
+}
+
+#fons-qui-soc{
+    background-color: black;
+    position: absolute;
+    height: 500px;
+    top: 1170px;
+    width: 100%;
+    z-index: 1;
+}
+
+#foto{
+    width: 50%;
+    margin-top: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+#foto-marge{
+    background-color: #1B96B0;
+    width: 500px;
+    height: 650px;
+    z-index: 2;
+}
+
+#fotografia{
+    align-items: center;
+    z-index: 2;
+    margin: 10px;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    top: 50%;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    z-index: 2;
+}
+
+#titoltext{
+    text-align: center;
+    z-index: 2;
+}
+
+#text-sobre-mi{
+    justify-content: center;
+    text-align: center;
+    background-color: #1B96B0;
+    height: 350px;
+    width: 800px;
+    z-index: 2;
+}
+
+/* ------------------------------------------------------ PROJECTES ------------------------------------------------------------ */
+
+.projectes{
+    margin-top: 150px;
+}
+
+#titol-projectes{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    width: 50%;
+    float: right;
+    background-color: black;
+}
+
+#projecte1{
+    height: 200px;
+    width: 350px;
+    display: inline-flex;
+    background-color: black;
+    padding: 20px;
+    width: 700px;
+    height: 200px;
+    color: white;
+}
+
+#fons-projecte{
+    background-color: #1B96B0;
+    height: 150px;
+}
+
+#text-projecte1{
+    float: right;
+    width: 100%;
+    text-align: center;
 }
