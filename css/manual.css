@@ -185,6 +185,10 @@ header {
     margin-top: 150px;
 }
 
+.projectes-graella{
+    display: block;
+}
+
 #titol-projectes{
     text-align: center;
     color: white;
@@ -194,14 +198,18 @@ header {
     background-color: black;
 }
 
+#text-projecte2{
+    float: right;
+    width: 100%;
+    text-align: center;
+}
+
 #projecte1{
     height: 200px;
-    width: 350px;
+    width: 33%;
     display: inline-flex;
     background-color: black;
     padding: 20px;
-    width: 700px;
-    height: 200px;
     color: white;
 }
 
@@ -211,6 +219,31 @@ header {
 }
 
 #text-projecte1{
+    float: right;
+    width: 100%;
+    text-align: center;
+}
+
+#projecte2{
+    height: 200px;
+    width: 33%;
+    display: inline-flex;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+
+#projecte3{
+    height: 200px;
+    width: 33%;
+    display: inline-flex;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+#text-projecte3{
     float: right;
     width: 100%;
     text-align: center;
