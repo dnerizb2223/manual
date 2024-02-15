@@ -3,12 +3,11 @@
 }
 
 html {
-    background-color: #A9A9A9;
     overflow-x: hidden;
 }
 
 body {
-    background-color: #A9A9A9!important;
+    background-color: #F2F2F2!important;
     margin: 0;
 }
 
@@ -16,7 +15,7 @@ body {
 /* ------------------------------------------------------ NAV ------------------------------------------------------------ */
 
 header {
-    background-color: black;
+    background-color: #22A2F2;
     z-index: 2;
 }
 
@@ -92,7 +91,7 @@ header {
     position: absolute;
     height: 913px;
     width: 220px;
-    background-color: #1B96B0;
+    background-color: #F2CF1D;
     z-index: 1;
 }
 
@@ -101,26 +100,26 @@ header {
     margin-bottom: 85px;
     font-size: 28px;
     padding: 20px 40px;
-    background-color: #1B96B0;
-    color: white;
+    background-color: #F2CF1D;
+    color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    border-radius: 15px;
 }
 
 /* ------------------------------------------------------ QUI SOC? ------------------------------------------------------------ */
 
 .qui-soc{
     margin-top: 140px !important;
-    margin: 10px;
-    display: flex;
+     display: flex;
     height: 700px;
 }
 
 #fons-qui-soc{
-    background-color: black;
+    background-color: #22A2F2;
     position: absolute;
     height: 500px;
     top: 1170px;
@@ -140,7 +139,7 @@ header {
 }
 
 #foto-marge{
-    background-color: #1B96B0;
+    background-color: #F2CF1D;
     width: 500px;
     height: 650px;
     z-index: 2;
@@ -173,7 +172,7 @@ header {
 #text-sobre-mi{
     justify-content: center;
     text-align: center;
-    background-color: #1B96B0;
+    background-color: #F2CF1D;
     height: 350px;
     width: 800px;
     z-index: 2;
@@ -195,7 +194,7 @@ header {
     margin-top: 50px;
     width: 50%;
     float: right;
-    background-color: black;
+    background-color: #22A2F2;
 }
 
 #text-projecte2{
@@ -208,7 +207,7 @@ header {
     height: 200px;
     width: 33%;
     display: inline-flex;
-    background-color: black;
+    background-color: #22A2F2;
     padding: 20px;
     color: white;
 }
@@ -228,7 +227,7 @@ header {
     height: 200px;
     width: 33%;
     display: inline-flex;
-    background-color: black;
+    background-color: #22A2F2;
     padding: 20px;
     color: white;
 }
@@ -238,7 +237,7 @@ header {
     height: 200px;
     width: 33%;
     display: inline-flex;
-    background-color: black;
+    background-color: #22A2F2;
     padding: 20px;
     color: white;
 }
