@@ -5,6 +5,7 @@
 html {
     overflow-x: hidden;
     background-color: #000000 !important;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -75,7 +76,7 @@ header {
 }
 
 #botons a:hover {
-    font-size: 30px;
+    font-size: 22px;
     transition: 0.5s;
     background-color: rgba(255, 255, 255, 0.329);
     border-radius: 15px;
@@ -244,11 +245,11 @@ header {
 
 
 .projectes{
-    margin-top: 150px;
+    margin-top: 100px;
     z-index: 3;
     position: absolute;
     right: 0;
-    width: 58%;
+    width: 45%;
 
 }
 #titolacio{
@@ -265,7 +266,7 @@ header {
     justify-content: center;
     position: fixed;
     z-index: 2;
-    left: 280px;
+    left: 300px;
     top: 50%;
     transform: translate(-50%, -50%);
 }
@@ -285,142 +286,79 @@ header {
 
 #text-projecte{
     padding: 10px;
+    float: right;
+    
 }
 
 #fons-projecte{
     background-color: #ffffff;
     height: 150px;
+    border-radius: 15px;
 }
 
 #projecte{
     height: 200px;
-    width: 49%;
+    width: 100%;
     display: inline-flex;
     padding: 20px;
     color: white;
     text-align: center;
 }
 
+#paleta{
+    width: 300px;
+    height: 170px;
+    border: white 1px solid;
+    border-radius: 15px;
+}
+
+#tipografia{
+    color: black;
+    width: 300px;
+    height: 170px;
+    margin-top: 30px;
+}
+
+#maquetacio{
+    width: 300px;
+    height: 170px;
+}
+
 /* ------------------------------------------------------ TRAJECTORIA ------------------------------------------------------------ */
 
-#formas{
+#mvv{
+    height: 200px;
+    width: 100%;
     display: inline-flex;
+    padding: 20px;
+    color: white;
+    text-align: center;
 }
 
-.forma{
-    top: 420px;
-    right: 750px;
-    position: fixed;
+.mvv-graella{
+    display: block;
 }
 
-#text-forma1{
-    top: 440px;
-    right: 770px;
-    position: fixed;
+.mvvs{
+    margin-top: 100px;
     z-index: 3;
-
+    position: absolute;
+    right: 0;
+    width: 53%;
 }
 
-.forma2{
-    top: 420px;
-    right: 600px;
-    position: fixed;
-}
-
-.forma3{
-    top: 420px;
-    right: 450px;
-    position: fixed;
-}
-
-.forma4{
-    top: 420px;
-    right: 300px;
-    position: fixed;
-}
-
-.caja1 i, .caja2 i{
-	color: #fff;
-	font-size: 3rem;
-	line-height: 80px;
-}
-
-
-.caja1{
-    z-index: 2;
-	width: 100px;
-	height: 100px;
-	background-color: rgb(0, 0, 0);
-	position: relative;
-	text-align: center;
-    transform: rotate(90deg);
-
-}
-
-.caja1::before{
-    z-index: 2;
-	content: '';
-	display: block;
-	width: 0;
-	height: 0;
-	position: fixed;
-	top: -40px;
-	border-right: solid 40px transparent;
-	border-bottom: solid 40px #ffffff;
-	border-left: solid 40px transparent;
-}
-
-.caja1::after{
-    z-index: 2;
-	content: '';
-	display: block;
-	width: 60px;
-	height: 125px;
-	position: absolute;
-	border-right: solid 40px #ffffff;
-	border-bottom: solid 0px transparent;
-	border-left: solid 40px #ffffff;
-}
-
-.caja2{
-    z-index: 2;
-	width: 100px;
-	height: 100px;
-	background-color: rgb(0, 0, 0);
-	position: relative;
-	text-align: center;
-    transform: rotate(90deg);
-
-}
-
-.caja2::before{
-    z-index: 2;
-	content: '';
-	display: block;
-	width: 0;
-	height: 0;
-	position: fixed;
-	top: -40px;
-	border-right: solid 40px transparent;
-	border-bottom: solid 40px #ffffff;
-	border-left: solid 40px transparent;
-}
-
-.caja2::after{
-    z-index: 2;
-	content: '';
-	display: block;
-	width: 60px;
-	height: 125px;
-	position: absolute;
-	border-right: solid 40px #ffffff;
-	border-bottom: solid 40px transparent;
-	border-left: solid 40px #ffffff;
+#mvv:hover{
+    font-size: 40px;
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.329);
+    border-radius: 15px;
+    padding: 5px;
 }
 
 
 
 /* ------------------------------------------------------------------------------------------------------------------ */
+
 
 @media (max-width: 768px) {
     #navegador {
